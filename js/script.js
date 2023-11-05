@@ -44,7 +44,7 @@ gsap.to(".main", {
 const crsr = document.querySelector(".cursor");
 const crsrblur = document.querySelector(".cursorblur");
 
-document.addEventListener("pointermove", function (e) {
+document.addEventListener("mousemove", function (e) {
   //   console.log(e); //gives mouse event
   //   console.log(e.x, e.y); //mouse posiiton x ang y ( left top)
 
