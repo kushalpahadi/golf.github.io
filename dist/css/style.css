@@ -67,7 +67,15 @@ html {
   border-radius: 50%;
   position: fixed;
   z-index: 99;
+
+
 }
+
+  @media (max-width: 800px) {
+  .cursor {
+  display:none;
+  }
+  }
 
 .cursorblur {
   height: 400px;
@@ -78,6 +86,13 @@ html {
   position: fixed;
   z-index: 9;
 }
+
+
+  @media (max-width: 800px) {
+  .cursorblur {
+  display:none;
+  }
+  }
 
 .video {
   position: fixed;
